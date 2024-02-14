@@ -1,0 +1,78 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.butt {
+	-fx-background-radius: 30.0;
+    -fx-background-insets: 0.0,1.0,1.0;
+    -fx-background-color: #005C82;
+    -fx-text-fill: white;
+}
+
+.butt:hover {
+    -fx-background-color: 	#FF8C00;
+    -fx-text-fill: black;
+    -fx-border-color:black;
+    -fx-background-radius: 30.0px; /* Set the radius for rounded background corners */
+    -fx-border-radius: 30.0px; /* Set the radius for rounded border corners */
+}
+
+.play:hover {
+    -fx-background-color: #f2a74b;
+    -fx-text-fill: black;
+}
+
+.tit{
+	-fx-fill: black;
+	-fx-font-size: 45px;
+	-fx-font-weight: bold;	
+	 -fx-stroke: #FF8C00; /* Stroke color */
+    -fx-stroke-width: 1.0px; /* Stroke width */
+}
+
+.lab{
+	-fx-font-weight: bold;	
+	-fx-fill: black;
+	-fx-font-size: 28px;	
+}
+
+.textField_1 {
+    -fx-background-color: red , white , white;
+    -fx-background-insets: 0.0 -1.0 -1.0 -1.0, 0.0 0.0 0.0 0.0, 0.0 -1.0 3.0 -1.0;
+}
+
+.textField_2 {
+    -fx-background-color: blue , white , white;
+    -fx-background-insets: 0.0 -1.0 -1.0 -1.0, 0.0 0.0 0.0 0.0, 0.0 -1.0 3.0 -1.0;
+}
+
+.textField_1:focused {
+    -fx-background-color: #FF8C00 , white , white;
+    -fx-background-insets: 0.0 -1.0 -1.0 -1.0, 0.0 0.0 0.0 0.0, 0.0 -1.0 3.0 -1.0;
+}
+
+.textField_2:focused {
+    -fx-background-color: #FF8C00 , white , white;
+    -fx-background-insets: 0.0 -1.0 -1.0 -1.0, 0.0 0.0 0.0 0.0, 0.0 -1.0 3.0 -1.0;
+}
+
+.lin4{
+	-fx-stroke: #f2a74b; 
+	-fx-stroke-width: 7;
+}
+
+.xo{
+	-fx-background-color: transparent;
+}
+
+.info{
+	-fx-font-size: 22px;
+	-fx-stroke: #FF8C00;
+}
+
+.n1{
+	-fx-font-size: 22px;
+	-fx-stroke: red;
+}
+
+.n2{
+	-fx-font-size: 22px;
+	-fx-stroke: blue;
+}
